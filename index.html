@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        
+        <div class="row">
+            <div class="col-12 bg-dark">
+                <div class="navbar-dark bg-dark">
+                    <h1 class="navbar-text">Train Scheduler</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <table class="table bg-dark text-light">
+                        <thead>
+                            <tr>
+                                <th>Train</th>
+                                <th>Destination</th>
+                                <th>First Train Time (Military time)</th>
+                                <th>Frequency</th>
+                                <th>Next train arrives in</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>      
+                </div>
+            </div>
+           <div class="row">
+                <div class="col-12">
+                    <div class="input mb-3">
+                        
+                            <span class="input-group-text" id="inputGroup-sizing-default">Train name</span>
+                            <input type="text" placeholder="ex. NE-train" class="trainInput form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <hr>
+                            <span class="input-group-text" id="inputGroup-sizing-default">Destination</span>
+                            <input type="text" placeholder="ex. new york city" class="destinationInput form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <hr>
+                            <span class="input-group-text" id="inputGroup-sizing-default">First Arrival Time (military)</span>
+                            <input type="text" placeholder="HH:mm" class="arrivalInput form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                            <hr>
+                            <span class="input-group-text" id="inputGroup-sizing-default">Frequency (in minutes)</span>
+                            <input type="text" placeholder="ex. 15" class="frequencyInput form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Add train to schedule</button>
+
+                </div>
+            </div>
+        </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+html, body {
+    /* The image used */
+    background-image: url("../images/train.jpg");
+  
+    /* Full height */
+    height: 100%;
+    bottom: 0;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    
+
+  }
+
+.container, .container-fluid{
+
+    font-family: 'Cabin', sans-serif;
+}
